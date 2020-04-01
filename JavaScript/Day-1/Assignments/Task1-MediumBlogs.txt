@@ -1,0 +1,13 @@
+Medium Blog Links
+
+1. JavaScript — An overview
+https://medium.com/@nandhakumar7thjuly/javascript-an-overview-30d8a0355b53
+
+2. Programming Languages
+https://medium.com/@nandhakumar7thjuly/programming-languages-3d0f13554502
+
+3.What is full stack development?
+https://medium.com/@nandhakumar7thjuly/what-is-full-stack-development-3187251fae93
+
+4. Computer Hardware & its components
+https://medium.com/@nandhakumar7thjuly/computer-hardware-its-components-f785d8f8da11
