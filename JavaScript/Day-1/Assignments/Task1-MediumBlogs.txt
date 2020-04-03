@@ -11,3 +11,21 @@ https://medium.com/@nandhakumar7thjuly/what-is-full-stack-development-3187251fae
 
 4. Computer Hardware & its components
 https://medium.com/@nandhakumar7thjuly/computer-hardware-its-components-f785d8f8da11
+
+
+#steps for adding you changes to a git repo
+create a new repo in github 
+clone that repo to your local
+for cloning you can use git clone "repo url" in command prompt/terminal
+navigated to that folder in your code editor
+create a new file
+add your changes
+open command prompt/terminal - navigate to that github folder in your local
+give the below commands one by one
+git status
+git add .
+git commit -m"commit message"
+git push origin master
+
+#this directly pushes your code to MASTER branch. you can also create a feature branch and add your changes and the merge it to MASTER
+#https://guides.github.com/activities/hello-world/
