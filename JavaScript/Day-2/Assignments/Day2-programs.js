@@ -9,17 +9,29 @@ var inputObj = {
 }
 var inputVar = undefined;
 var inputEmpty = null;
+var test = NaN;
 
 function checkTypes() {
-  console.log("Type of " + inputName + " is: " + typeof(inputName));
-  console.log("Type of " + inputNumber + " is: " + typeof(inputNumber));
-  console.log("Type of " + inputCheck + " is: " + typeof(inputCheck));
-  console.log("Type of " + inputArr + " is: " + typeof(inputArr));
-  console.log("Type of " + inputObj.name + " is: " + typeof(inputObj));
-  console.log("Type of " + inputVar + " is: " + typeof(inputVar));
-  console.log("Type of " + inputEmpty + " is: " + typeof(inputEmpty));
+  console.log("Type of " + inputName + " is: " + typeof(inputName)); //Type of Alex is: string
+  console.log("Type of " + inputNumber + " is: " + typeof(inputNumber)); //Type of 9 is: number
+  console.log("Type of " + inputCheck + " is: " + typeof(inputCheck)); //Type of true is: boolean
+  console.log("Type of " + inputArr + " is: " + typeof(inputArr)); //Type of 1,3,5,7 is: object
+  console.log("Type of " + inputObj.name + " is: " + typeof(inputObj)); //Type of Fox is: object
+  console.log("Type of " + inputVar + " is: " + typeof(inputVar)); //Type of undefined is: undefined
+  console.log("Type of " + inputEmpty + " is: " + typeof(inputEmpty)); //Type of null is: object
+  console.log("Type of " + test + " is: " + typeof(test)); //Type of NaN is: number
 }
 checkTypes();
+
+console.log(null == undefined); //true
+console.log(null === undefined); //false
+
+console.log(5+4+"5"); //95
+console.log("6"+7+9); //679
+console.log(null+9+"7"); //97
+console.log(undefined+8+"6"); //NaN6
+console.log(5+8+undefined+"hj"); //NaNhj
+console.log(7+null+undefined+"0"); //NaN0
 
 //-------------------------------------------------------------------------------------
 /*2.JSON representation
